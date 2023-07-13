@@ -4,6 +4,9 @@ public class IfElse_03 {
 
 	public static void main(String[] args) {
 
+		
+		
+		
 		int num = 44;
 		
 		if(num>0 && num<=100 ) {
