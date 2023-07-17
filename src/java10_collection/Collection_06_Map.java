@@ -1,6 +1,6 @@
 package java10_collection;
 
-import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 import java.util.Set;
 
@@ -8,8 +8,9 @@ public class Collection_06_Map {
 	public static void main(String[] args) {
 		
 		//맵 객체 생성
-		Map map = new HashMap();
-	
+//		Map map = new HashMap();
+		Map map = new Hashtable<>();
+		
 		//데이터 삽입
 		System.out.println("-----put ( key, value )------");
 		map.put("a", "Apple");	//	"a"="Apple"
@@ -77,12 +78,13 @@ public class Collection_06_Map {
 		System.out.println(" ----null데이터 처리------ ");
 		
 		//key가 null인 상황은 에러는 아니지만 좋지 않다
-		map.put(null, "Bob");
-		map.put(900 , null);
+		//Hashtable은 key, value로 null값을 허용하지 않는다
+//		map.put(null, "Bob");
+//		map.put(900 , null);
 		
 		System.out.println(map);
 		
-		map.put(null, null);
+//		map.put(null, null);
 		System.out.println(map);
 		
 		System.out.println();
