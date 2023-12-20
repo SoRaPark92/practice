@@ -25,6 +25,7 @@ public class Variables_01 {		//클래스 정의 (클래스와 확장자 이름�
 		System.out.println( 123.456 );	//double
 		System.out.println( true );	//boolean
 		System.out.println( 'A' );	//char, 단일 문자(글자 1개)
+		System.out.println( 'C' );	//char, 단일 문자(글자 1개)
 		
 		System.out.println("Hello"); //String타입, 문자열(기본문자타입X),""안에는 없거나 빈칸도 가능,여러글자도 인식,복잡한 데이터타입
 		
