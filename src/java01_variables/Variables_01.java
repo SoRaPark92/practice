@@ -49,5 +49,5 @@ public class Variables_01 {		//클래스 정의 (클래스와 확장자 이름�
 		
 	}//메인 메소드의 끝, 자바 프로그램의 중단점(Terminate)
 
-} // Test 클래스 정의 끝  
+} // Test 클래스 정의 끝
 
